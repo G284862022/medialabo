@@ -3,15 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>プロジェクト課題</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
     <script src="project.js" defer></script>
+    <link rel="stylesheet" href="project.css">
   </head>
 
   <body>
-    <h1><span id="sekai">世界</span>の天気</h1>
-    <p><input type="text" country="country" id="kaito" size="10">
-      <button id="print">検索</button></p>
+    <h1>世界の天気</h1>
+    <select id="kensaku" name="kensaku">
+      <option value="">国を選択してください</option>
+      <option id="360630" value="a">エジプト</option>
+      <option id="524901" value="b">ロシア</option>
+      <option id="993800" value="c">南アフリカ</option>
+      <option id="1816670" value="d">中国</option>
+      <option id="1850147" value="e">日本</option>
+      <option id="1880252" value="f">シンガポール</option>
+      <option id="2147714" value="g">オーストラリア</option>
+      <option id="2643743" value="h">イギリス</option>
+      <option id="2968815" value="i">フランス</option>
+      <option id="3451189" value="j">ブラジル</option>
+      <option id="5128581" value="k">アメリカ(NY)</option>
+      <option id="5368361" value="l">アメリカ(LA)</option>
+    </select>
+    <button id="kensaku">検索</button>
+    <div id="t"><p id="s">首都:<span id="syuto"></span></p>
     <p>天気:<span id="tenki"></span></p>
-    <p>最低気温:<span id="saitei"></span></p>
     <p>最高気温:<span id="saikou"></span></p>
+    <p>最低気温:<span id="saitei"></span></p></div>
   </body>
 </html>

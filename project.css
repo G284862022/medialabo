@@ -1,0 +1,44 @@
+h1{
+    text-align:center;
+    padding:7px 0px 7px 0px;
+    background-color:aqua; 
+}
+#t{
+    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+#t:before,#t:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+#t:before {left: 10px;}
+#t:after {right: 10px;}
+#t p {
+    margin: 0; 
+    padding: 0;
+}
+#s{
+    border-bottom: dashed 2px ;
+}
+#s{
+    line-height:2;
+}
+#tenki{
+    line-height:2;
+}
+#saikou{
+    line-height:2;
+}
+#saitei{
+    line-height:2;
+}

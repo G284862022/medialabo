@@ -1,0 +1,14 @@
+h1{
+    text-align:center;
+    background-color:#99FFFF;
+    padding:5px 0px 5px 0px;
+    border:solid ;
+}
+h2{
+    background-color:#FFFF99;
+    border: double;
+}
+h3{
+    background-color:#CCFFCC;
+    border-bottom: solid;
+}
