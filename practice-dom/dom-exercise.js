@@ -48,6 +48,6 @@ let u=document.querySelector('ul#location');
 let li;
 for(let n of data){
 	li=document.createElement('li');
-	li.textContent=n.name+'...緯度:'+n.lat+'経度:'+n.lng;
+	li.textContent=n.name+'... 緯度:'+n.lat+'経度:'+n.lng;
 	u.insertAdjacentElement('beforeend',li);
 }
